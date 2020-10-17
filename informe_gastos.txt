@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 me gaste mucha plata en monito 1000000
 mucha plata en poleras 7999999999999 1000000
 mucha plata en poleras 7999999999999 1000000
@@ -99,3 +100,6 @@ mucha plata en poleras 7999999999999 1000000
 mucha plata en poleras 7999999999999 1000000
 mucha plata en poleras 7999999999999 1000000
 mucha plata en poleras 7999999999999s
+=======
+gaste plata en comida 8979878989
+>>>>>>> imagenes
