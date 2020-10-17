@@ -1,0 +1,154 @@
+
+  495  git clone https://github.com/git/git
+  496  ls
+  497  ls
+  498  clear
+  499  ls
+  500  ls
+  501  git --version
+  502  ls
+  503  cd Desktop/
+  504  ls
+  505  cd Prueba_git/
+  506  ñs
+  507  pwd
+  508  ls
+  509  clear
+  510  pwd
+  511  vim informe_gastos.txt
+  512  ls
+  513  touch informe_gastos.txt
+  514  ls
+  515  touch mi_archivo.txt
+  516  ls -l
+  517  git init
+  518  ls -la
+  519  git status
+  520  git add informe_gastos.txt
+  521  git status
+  522  git rm --cached informe_gastos.txt 
+  523  git status
+  524  git add .
+  525  git status
+  526  git commit -m 'mi primer commit'
+  527  git config --global user.name 'Valentina Muñoz'
+  528  git config --global user.email 'vmunozvaleria@icloud.com'
+  529  git config --list
+  530  git commit -m 'mi segundo commit'
+  531  git status
+  532  git log
+  533  touch nuevo_archivo.txt
+  534  git status
+  535  git add nuevo_archivo.txt 
+  536  git status
+  537  git commit -m "Añadiendo nuevo archivo al repo local"
+  538  git log
+  539  touch archivo1.txt
+  540  touch archivo2.txt
+  541  git add archivo1.txt 
+  542  git status
+  543  git commit -m 'commit del archivo1'
+  544  git status
+  545  git add .
+  546  git commit -m 'commit del archivo2'
+  547  git log
+  548  git checkout 47bc061f7680fca478d11d2de7d71bf5ff7f03a3
+  549  ls -l
+  550  git log
+  551  git checkout master
+  552  git log
+  553  ls -l
+  554  git checkout 47bc061f7680fca478d11d2de7d71bf5ff7f03a3
+  555  ls -l
+  556  git switch -c pruebas
+  557  git branch
+  558  git switch -c master
+  559  git checkout master
+  560  git branch
+  561  git checkout pruebas
+  562  git branch
+  563  git checkout -b imagenes
+  564  touch fondo.jpg
+  565  git branch
+  566  git status
+  567  git commit -m 'añadiendo imagenes'
+  568  git status
+  569  git branch
+  570  touch fondo.jpg
+  571  git status
+  572  git commit -m 'agregando imagen'
+  573  git add fondo.jpg 
+  574  git commit -m 'agregando imagen'
+  575  git status
+  576  git log
+  577  git banch
+  578  git branch
+  579  git checkout master
+  580  ls
+  581  git merge imagenes
+  582  ls -l
+  583  git merge imagenes
+  584  ls
+  585  git branch
+  586  git checkout pruebas
+  587  ls
+  588  vim informe_gastos.txt 
+  589  cat informe_gastos.txt 
+  590  git status
+  591  git add .
+  592  git status
+  593  git commit -m 'añadiendo gastos'
+  594  git log
+  595  git checkout master
+  596  git log
+  597  git branch
+  598  git merge pruebas
+  599  git log
+  600  quit
+  601  git log --graph
+  602  git branch
+  603  vim informe_gastos.txt 
+  604  cat informe_gastos.txt 
+  605  git add .
+  606  git commit -m "aahhhh"
+  607  git branch
+  608  git checkout imagenes
+  609  ls
+  610  vim informe_gastos.txt 
+  611  git branch
+  612  git checkout master
+  613  git branch
+  614  git commit -m "informe gastos en imagenes"
+  615  git checkout master
+  616  git add .
+  617  git commit -m "informe gastos en imagenes"
+  618  git checkout master
+  619  git merge imagenes
+  620  ls
+  621  git status
+  622  git add .
+  623  git commit -m "informe gastos e imagenes"
+  624  git branch
+  625  git log --graph
+  626  git branch -d pruebas
+  627  git branch
+  628  git remote add origin https://github.com/vmunozvaleria/taller_git.git
+  629  git remote -v
+  630  git push origin master
+  631  git push origin master
+  632  git push origin master
+  633  git push origin master
+  634  git push origin master
+  635  git push origin master
+  636  cd ..
+  637  cd Prueba_git_clone/
+  638  git clone https://github.com/vmunozvaleria/taller_git.git
+  639  git pull origin master
+  640  cd ..
+  641  ls
+  642  cd Prueba_git
+  643  la
+  644  ls
+  645  git pull origin master
+  646  touch historia.txt
+  647  history >> historia.txt 
